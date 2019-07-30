@@ -24,7 +24,7 @@ class App extends React.Component {
             return <SeasonDisplay lat={this.state.lat} />
         }
 
-        return <Loader message="Please accept the location request" />;
+        return <Loader message="Please accept  location request" />;
 
     }
 
